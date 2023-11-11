@@ -1,9 +1,6 @@
 ﻿@page "/"
+@using System.Globalization
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
+<Task Description="Bear" Title="Snuggle" Id="1" DueDate="new DateOnly(2023,12,07,new GregorianCalendar())" IsCompleted="true"></Task><button class="btn btn-primary" type="button"><i class="oi oi-plus"></i></button><button class="btn btn-primary" type="button"><i class="oi oi-minus"></i></button>
